@@ -1,0 +1,30 @@
+@using quizsite.Data;
+@inject QuizService quizService
+
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<h4>@question.Question</h4>
+<div class="col-8" id="question">
+    <button @onclick="(() => CheckAnswer(0))" type="button" class="col-4 btn btn-primary" style="margin-bottom: 5px">@question.Answers[0]</button>
+    <button @onclick="(() => CheckAnswer(1))" type="button" class="col-4 btn btn-primary" style="margin-bottom: 5px">@question.Answers[1]</button>
+    <button @onclick="(() => CheckAnswer(2))" type="button" class="col-4 btn btn-primary" style="margin-bottom: 5px">@question.Answers[2]</button>
+    <button @onclick="(() => CheckAnswer(3))" type="button" class="col-4 btn btn-primary" style="margin-bottom: 5px">@question.Answers[3]</button>
+</div>
+
+@code {
+    [Parameter]
+    public QuestionData question { get; set; }
+
+    async Task CheckAnswer(int answerClicked)
+    {
+        if (await quizService.CheckAnswer(question.Id, answerClicked))
+        {
+            System.Console.WriteLine("correct");
+        }
+        else
+        {
+            System.Console.WriteLine("incorrect");
+        }
+    }
+}

@@ -1,0 +1,15 @@
+C:\git\sem3\softwarearkitektur\mod1\consoletest\bin\Debug\net7.0\consoletest.exe
+C:\git\sem3\softwarearkitektur\mod1\consoletest\bin\Debug\net7.0\consoletest.deps.json
+C:\git\sem3\softwarearkitektur\mod1\consoletest\bin\Debug\net7.0\consoletest.runtimeconfig.json
+C:\git\sem3\softwarearkitektur\mod1\consoletest\bin\Debug\net7.0\consoletest.dll
+C:\git\sem3\softwarearkitektur\mod1\consoletest\bin\Debug\net7.0\consoletest.pdb
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\consoletest.csproj.AssemblyReference.cache
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\consoletest.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\consoletest.AssemblyInfoInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\consoletest.AssemblyInfo.cs
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\consoletest.csproj.CoreCompileInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\consoletest.dll
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\refint\consoletest.dll
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\consoletest.pdb
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\consoletest.genruntimeconfig.cache
+C:\git\sem3\softwarearkitektur\mod1\consoletest\obj\Debug\net7.0\ref\consoletest.dll

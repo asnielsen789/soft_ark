@@ -1,0 +1,15 @@
+C:\git\sem3\softwarearkitektur\mod1\euclids\bin\Debug\net7.0\euclids.exe
+C:\git\sem3\softwarearkitektur\mod1\euclids\bin\Debug\net7.0\euclids.deps.json
+C:\git\sem3\softwarearkitektur\mod1\euclids\bin\Debug\net7.0\euclids.runtimeconfig.json
+C:\git\sem3\softwarearkitektur\mod1\euclids\bin\Debug\net7.0\euclids.dll
+C:\git\sem3\softwarearkitektur\mod1\euclids\bin\Debug\net7.0\euclids.pdb
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\euclids.csproj.AssemblyReference.cache
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\euclids.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\euclids.AssemblyInfoInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\euclids.AssemblyInfo.cs
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\euclids.csproj.CoreCompileInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\euclids.dll
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\refint\euclids.dll
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\euclids.pdb
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\euclids.genruntimeconfig.cache
+C:\git\sem3\softwarearkitektur\mod1\euclids\obj\Debug\net7.0\ref\euclids.dll

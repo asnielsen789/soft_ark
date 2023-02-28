@@ -1,0 +1,15 @@
+C:\git\sem3\softwarearkitektur\mod2\opg1\bin\Debug\net7.0\opg1.exe
+C:\git\sem3\softwarearkitektur\mod2\opg1\bin\Debug\net7.0\opg1.deps.json
+C:\git\sem3\softwarearkitektur\mod2\opg1\bin\Debug\net7.0\opg1.runtimeconfig.json
+C:\git\sem3\softwarearkitektur\mod2\opg1\bin\Debug\net7.0\opg1.dll
+C:\git\sem3\softwarearkitektur\mod2\opg1\bin\Debug\net7.0\opg1.pdb
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\opg1.csproj.AssemblyReference.cache
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\opg1.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\opg1.AssemblyInfoInputs.cache
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\opg1.AssemblyInfo.cs
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\opg1.csproj.CoreCompileInputs.cache
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\opg1.dll
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\refint\opg1.dll
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\opg1.pdb
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\opg1.genruntimeconfig.cache
+C:\git\sem3\softwarearkitektur\mod2\opg1\obj\Debug\net7.0\ref\opg1.dll

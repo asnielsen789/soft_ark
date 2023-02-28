@@ -1,0 +1,15 @@
+C:\git\sem3\softwarearkitektur\mod1\faculty\bin\Debug\net7.0\faculty.exe
+C:\git\sem3\softwarearkitektur\mod1\faculty\bin\Debug\net7.0\faculty.deps.json
+C:\git\sem3\softwarearkitektur\mod1\faculty\bin\Debug\net7.0\faculty.runtimeconfig.json
+C:\git\sem3\softwarearkitektur\mod1\faculty\bin\Debug\net7.0\faculty.dll
+C:\git\sem3\softwarearkitektur\mod1\faculty\bin\Debug\net7.0\faculty.pdb
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\faculty.csproj.AssemblyReference.cache
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\faculty.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\faculty.AssemblyInfoInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\faculty.AssemblyInfo.cs
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\faculty.csproj.CoreCompileInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\faculty.dll
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\refint\faculty.dll
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\faculty.pdb
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\faculty.genruntimeconfig.cache
+C:\git\sem3\softwarearkitektur\mod1\faculty\obj\Debug\net7.0\ref\faculty.dll

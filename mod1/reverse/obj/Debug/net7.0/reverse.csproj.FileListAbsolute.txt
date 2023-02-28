@@ -1,0 +1,15 @@
+C:\git\sem3\softwarearkitektur\mod1\reverse\bin\Debug\net7.0\reverse.exe
+C:\git\sem3\softwarearkitektur\mod1\reverse\bin\Debug\net7.0\reverse.deps.json
+C:\git\sem3\softwarearkitektur\mod1\reverse\bin\Debug\net7.0\reverse.runtimeconfig.json
+C:\git\sem3\softwarearkitektur\mod1\reverse\bin\Debug\net7.0\reverse.dll
+C:\git\sem3\softwarearkitektur\mod1\reverse\bin\Debug\net7.0\reverse.pdb
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\reverse.csproj.AssemblyReference.cache
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\reverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\reverse.AssemblyInfoInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\reverse.AssemblyInfo.cs
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\reverse.csproj.CoreCompileInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\reverse.dll
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\refint\reverse.dll
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\reverse.pdb
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\reverse.genruntimeconfig.cache
+C:\git\sem3\softwarearkitektur\mod1\reverse\obj\Debug\net7.0\ref\reverse.dll

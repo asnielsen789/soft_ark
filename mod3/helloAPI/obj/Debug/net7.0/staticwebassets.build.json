@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LOKLDHESSfEgGmIAtUH1UGv956H4dnGWwKspqbMEs+k=",
+  "Source": "helloAPI",
+  "BasePath": "_content/helloAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

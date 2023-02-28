@@ -1,0 +1,15 @@
+C:\git\sem3\softwarearkitektur\mod1\potens\bin\Debug\net7.0\potens.exe
+C:\git\sem3\softwarearkitektur\mod1\potens\bin\Debug\net7.0\potens.deps.json
+C:\git\sem3\softwarearkitektur\mod1\potens\bin\Debug\net7.0\potens.runtimeconfig.json
+C:\git\sem3\softwarearkitektur\mod1\potens\bin\Debug\net7.0\potens.dll
+C:\git\sem3\softwarearkitektur\mod1\potens\bin\Debug\net7.0\potens.pdb
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\potens.csproj.AssemblyReference.cache
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\potens.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\potens.AssemblyInfoInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\potens.AssemblyInfo.cs
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\potens.csproj.CoreCompileInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\potens.dll
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\refint\potens.dll
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\potens.pdb
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\potens.genruntimeconfig.cache
+C:\git\sem3\softwarearkitektur\mod1\potens\obj\Debug\net7.0\ref\potens.dll

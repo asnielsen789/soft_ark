@@ -1,0 +1,44 @@
+﻿@page "/quiz"
+
+@using quizsite.Data;
+@inject QuizService quizService
+
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<PageTitle>Quiz</PageTitle>
+
+<h1>Quiz</h1>
+
+@if (questions == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ol>
+        @foreach (var question in questions)
+        {
+            <li>
+                <QuestionRender question=@question></QuestionRender>
+            </li>
+        }
+    </ol>
+}
+
+@code {
+    private QuestionData[]? questions;
+
+    protected override async Task OnInitializedAsync()
+    {
+        questions = await quizService.GetQuestionData();
+        quizService.RefreshRequired += this.RefreshMe;
+    }  
+    
+    private async void RefreshMe()
+    {
+        questions = await quizService.GetQuestionData();
+        StateHasChanged();
+        Console.WriteLine("Refreshed");
+    }  
+}

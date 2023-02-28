@@ -1,0 +1,15 @@
+C:\git\sem3\softwarearkitektur\mod1\multiply\bin\Debug\net7.0\multiply.exe
+C:\git\sem3\softwarearkitektur\mod1\multiply\bin\Debug\net7.0\multiply.deps.json
+C:\git\sem3\softwarearkitektur\mod1\multiply\bin\Debug\net7.0\multiply.runtimeconfig.json
+C:\git\sem3\softwarearkitektur\mod1\multiply\bin\Debug\net7.0\multiply.dll
+C:\git\sem3\softwarearkitektur\mod1\multiply\bin\Debug\net7.0\multiply.pdb
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\multiply.csproj.AssemblyReference.cache
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\multiply.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\multiply.AssemblyInfoInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\multiply.AssemblyInfo.cs
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\multiply.csproj.CoreCompileInputs.cache
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\multiply.dll
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\refint\multiply.dll
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\multiply.pdb
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\multiply.genruntimeconfig.cache
+C:\git\sem3\softwarearkitektur\mod1\multiply\obj\Debug\net7.0\ref\multiply.dll
