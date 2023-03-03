@@ -36,9 +36,9 @@ app.MapGet("/api/quiz/{id}", (int id) => {
         answers = x.answers
     }).ToList().Find(x => x.id == id);
 });
-app.MapGet("/api/quiz/{id}/{input}", (int id, int input) =>
+app.MapPost("/api/quiz/{id}/validate", (int id, Input input) =>
 {
-    if (questions.Find(x => x.id == id).correct == input)
+    if (questions.Find(x => x.id == id).correct == input.input)
     {
         return true;
     }
@@ -51,7 +51,7 @@ app.MapGet("/api/quiz/{id}/{input}", (int id, int input) =>
 app.Run();
 
 record Question(int id, string question, string[] answers, int correct);
-
+record Input(int input);
 
 
 
