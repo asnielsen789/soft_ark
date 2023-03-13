@@ -16,10 +16,15 @@ namespace Models
             this.Category = category;
             this.Done = done;
         }
+
+        public TodoTask()
+        {
+
+        }
         public long TodoTaskId { get; set; }
         public string? Text { get; set; }
         public string? Category { get; set; }
         public bool Done { get; set; }
-        public User User { get; set; }
+        public User? User { get; set; }
     }
 }

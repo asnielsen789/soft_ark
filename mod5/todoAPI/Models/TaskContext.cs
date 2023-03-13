@@ -8,7 +8,7 @@ namespace Models
     {
         public DbSet<TodoTask> Tasks { get; set; }
         public DbSet<User> Users { get; set; }
-        public string DbPath { get; }
+        public string? DbPath { get; }
 
         public TaskContext(DbContextOptions<TaskContext> options) : base(options)
         {

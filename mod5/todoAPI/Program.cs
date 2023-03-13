@@ -23,39 +23,56 @@ var app = builder.Build();
 app.UseCors(AllowCors);
 
 /// code
-/*using (var db = new TaskContext())
+/*
+using (var db = new TaskContext())
 {
-    db.Add(new User("Asger", "asn@mail.dk"));
-    db.Add(new TodoTask("handle ind", "hverdag", db.Users.First(), false));
-    db.Add(new TodoTask("vaske op", "hverdag", db.Users.First(), false));
-    db.Add(new TodoTask("lave mad", "hverdag", db.Users.First(), false));
-
+    
+    db.Users.Add(new User("Asger", "asn@mail.dk"));
     db.SaveChanges();
-}*/
+    
+    
+    db.Tasks.Add(new TodoTask("handle ind", "hverdag", db.Users.First(), false));
+    db.Tasks.Add(new TodoTask("vaske op", "hverdag", db.Users.First(), false));
+    db.Tasks.Add(new TodoTask("lave mad", "hverdag", db.Users.First(), false));
+    db.SaveChanges();
+    
+}
+*/
 
-app.MapGet("/api/tasks", (TaskContext db) => db.Tasks);
-/*app.MapGet("/api/tasks/{id}", (int id) => db.Tasks.Find(x => x.id == id));
+app.MapGet("/api/tasks", (TaskContext db) => db.Tasks.Include(t => t.User));//.OrderBy(b => b.TodoTaskId).ToList<TodoTask>());
 
-app.MapPost("/api/tasks", (Task task) =>
+app.MapGet("/api/tasks/{id}", (long id, TaskContext db) => db.Tasks.Where(x => x.TodoTaskId == id).Include(t => t.User).FirstOrDefault<TodoTask>());
+
+app.MapPost("/api/tasks", (TodoTask task, TaskContext db) =>
 {
-    int max = db.Tasks.Max(x => x.id);
-    db.Tasks.Add(new Task(++max, task.text, task.done));
-    return tasks.ToArray();
+    db.Tasks.Add(new TodoTask(task.Text, task.Category, db.Users.First(), task.Done));
+    db.SaveChanges();
+    return db.Tasks.OrderBy(b => b.TodoTaskId).Include(t => t.User).ToList<TodoTask>();
 });
 
-app.MapPut("/api/tasks/{id}", (int id, Task task) =>
+app.MapPut("/api/tasks/{id}", (int id, TodoTask task, TaskContext db) =>
 {
-    tasks[tasks.FindIndex(x => x.id == id)] = (new Task(id, task.text, task.done));
-    return tasks.ToArray();
+    var entry = db.Tasks.Find((long)id); //var entry = db.Tasks.Where(x => x.TodoTaskId == id).FirstOrDefault<TodoTask>();
+    if (entry != null)
+    {
+        entry.Text = task.Text;
+        entry.Category = task.Category;
+        entry.Done = task.Done;
+        //db.Tasks.Update(task);
+        db.SaveChanges();
+    }
+    return db.Tasks.OrderBy(b => b.TodoTaskId).Include(t => t.User).ToList<TodoTask>();
 });
 
-app.MapDelete("/api/tasks/{id}", (int id) =>
+app.MapDelete("/api/tasks/{id}", (int id, TaskContext db) =>
 {
-    tasks.Remove(tasks.Find(x => x.id == id));
-    return tasks.ToArray();
-});*/
-
+    var entry = db.Tasks.Find((long)id); //var entry = db.Tasks.Where(x => x.TodoTaskId == id).FirstOrDefault<TodoTask>();
+    if (entry != null)
+    {
+        db.Tasks.Remove(entry);
+        db.SaveChanges();
+    }
+    return db.Tasks.OrderBy(b => b.TodoTaskId).Include(t => t.User).ToList<TodoTask>();
+});
 
 app.Run();
-
-record Task(int id, string text, bool done);
